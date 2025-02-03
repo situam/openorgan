@@ -1,0 +1,181 @@
+(footprint "Pot_RV09AF-ALPHA"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "http://www.taydaelectronics.com/datasheets/A-1881.pdf")
+	(tags "TAYDA A1881")
+	(property "Reference" "REF**"
+		(at 0 4 0)
+		(layer "F.SilkS")
+		(uuid "522a4215-0007-43cc-aa2e-61a8f9d1947c")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1524)
+			)
+		)
+	)
+	(property "Value" "VAL**"
+		(at 0.5 -4 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "47587a3a-2c58-4505-aecf-1e6d71033306")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1524)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bf418a61-7ee5-42c3-a10a-64d8b317ee29")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d40ee310-1d5a-4035-a9bd-b8619bdd03c2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8fe43471-8402-4a3a-b5a5-254397af98a4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5 -5.5)
+		(end 5 -5.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dad62e36-5112-43ff-bc4f-c65179b9395b")
+	)
+	(fp_line
+		(start -5 -2)
+		(end -5 -5.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1afb2590-77d4-43d8-907b-c7113ab7d10b")
+	)
+	(fp_line
+		(start -5 6)
+		(end -5 2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b50aa4ff-ef0a-476b-a8fd-38533c30036a")
+	)
+	(fp_line
+		(start 5 -5.5)
+		(end 5 -2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6d3e980b-b37d-4999-9506-2c733b7fedde")
+	)
+	(fp_line
+		(start 5 6)
+		(end -5 6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c5260843-3d68-4fd3-ac4f-9ca5eef9bc09")
+	)
+	(fp_line
+		(start 5 6)
+		(end 5 2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9d09ea2c-44bf-4463-8b09-66f928d9f565")
+	)
+	(pad "" thru_hole roundrect
+		(at -4.7 0)
+		(size 3 3.2)
+		(drill oval 2 2.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.3333333333)
+		(uuid "4d87edc7-5ae4-45fb-9ae9-baad5239b365")
+	)
+	(pad "" thru_hole roundrect
+		(at 4.7 0)
+		(size 3 3.2)
+		(drill oval 2 2.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.3333333333)
+		(uuid "6fe707b3-54db-4d83-a11a-a53d777a6af6")
+	)
+	(pad "1" thru_hole circle
+		(at -2.5 7)
+		(size 1.75 1.75)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "282cea19-81a3-4ff8-808c-14581c1974ef")
+	)
+	(pad "2" thru_hole circle
+		(at 0 7)
+		(size 1.75 1.75)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "82a20d25-9d62-4d3c-af08-1d42e95f959c")
+	)
+	(pad "3" thru_hole circle
+		(at 2.5 7)
+		(size 1.75 1.75)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "401778b1-a76a-440f-aa09-9ec0762f7401")
+	)
+	(model "/Users/ma/Documents/KiCad/8.0/3dmodels/ALPHA-9MM-RV09AF-40.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 0.3937 0.3937 0.3937)
+		)
+		(rotate
+			(xyz 180 0 180)
+		)
+	)
+)
