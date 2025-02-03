@@ -3584,6 +3584,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 138.43 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a45515c3-84ab-414c-ae42-2883ff69f004")
 		)
@@ -3606,7 +3615,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0a15483a-04f0-4183-b424-3ebcbaae8280")
 		(property "Reference" "D3"
@@ -3654,6 +3663,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 138.43 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d8420e44-aeeb-4091-969f-9b3b7597ef72")
 		)
@@ -3676,7 +3694,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0d2c96ad-ded2-488f-b994-eb362723b92e")
 		(property "Reference" "J7"
@@ -3723,6 +3741,15 @@
 			)
 		)
 		(property "source" "Tayda A-4118 (https://www.taydaelectronics.com/dc-power-jack-2-1mm-barrel-type-pcb-mount.html)"
+			(at 27.94 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 27.94 24.13 0)
 			(effects
 				(font
@@ -3804,6 +3831,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 41.91 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8c6051ee-d20e-4fbb-b9cc-eeb0fe2354d3")
 		)
@@ -3874,6 +3910,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 39.37 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "787b9b7e-191a-43cf-a5f1-aeef1e0dcdd6")
 		)
@@ -3896,7 +3941,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "26a21c1a-06fb-4eb3-b5ee-d22710f0814c")
 		(property "Reference" "RV9"
@@ -3936,6 +3981,15 @@
 			)
 		)
 		(property "Description" "Potentiometer"
+			(at 120.65 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 120.65 127 0)
 			(effects
 				(font
@@ -4092,6 +4146,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 64.77 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "a564427c-3dfe-4bec-954d-0334f79fa39d")
 		)
@@ -4178,6 +4241,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 129.54 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cefc8894-f393-475d-a68c-b08ebf4c3cbc")
 		)
@@ -4238,6 +4310,24 @@
 			)
 		)
 		(property "Description" "Hex Schmitt trigger inverter"
+			(at 251.46 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "C38184"
+			(at 251.46 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 251.46 39.37 0)
 			(effects
 				(font
@@ -4342,6 +4432,24 @@
 			)
 		)
 		(property "Description" "Hex Schmitt trigger inverter"
+			(at 120.65 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "C38184"
+			(at 120.65 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 120.65 52.07 0)
 			(effects
 				(font
@@ -4522,6 +4630,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 114.3 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a6d7c4e7-c3b9-4ab6-ac88-4caae7a8f86b")
 		)
@@ -4581,6 +4698,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 184.15 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 184.15 127 0)
 			(effects
 				(font
@@ -4649,6 +4775,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 205.74 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 205.74 95.25 0)
 			(effects
 				(font
@@ -4727,6 +4862,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 120.65 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3539b135-bd3c-479e-a7c6-e04bd2d98ac4")
 		)
@@ -4749,7 +4893,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "648f2e43-68a9-4100-939d-0920cbc415fb")
 		(property "Reference" "RV7"
@@ -4795,6 +4939,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 104.14 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "dbcdab4e-1dab-4d2a-9481-f92893295752")
 		)
@@ -4820,7 +4973,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "66360710-c022-43cb-9d31-017302d26b12")
 		(property "Reference" "RV8"
@@ -4858,6 +5011,15 @@
 			)
 		)
 		(property "Description" "Potentiometer"
+			(at 120.65 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 120.65 30.48 0)
 			(effects
 				(font
@@ -4939,6 +5101,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" "C38184"
+			(at 25.4 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 25.4 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "4d8e1e06-f09e-41d4-bf39-bb1078e73a81")
 		)
@@ -4997,7 +5177,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "792b9eaa-3164-48b5-9631-2abc0cb3a9ff")
 		(property "Reference" "RV12"
@@ -5035,6 +5215,15 @@
 			)
 		)
 		(property "Description" "Potentiometer"
+			(at 167.64 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 167.64 80.01 0)
 			(effects
 				(font
@@ -5106,6 +5295,24 @@
 			)
 		)
 		(property "Description" "Hex Schmitt trigger inverter"
+			(at 251.46 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "C38184"
+			(at 251.46 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 251.46 67.31 0)
 			(effects
 				(font
@@ -5218,6 +5425,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" "C38184"
+			(at 251.46 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 251.46 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "4d8e1e06-f09e-41d4-bf39-bb1078e73a83")
 		)
@@ -5322,6 +5547,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 185.42 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "089265fc-df2c-4dcf-92c2-9429ede83f07")
 		)
@@ -5382,6 +5616,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 153.67 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 153.67 80.01 0)
 			(effects
 				(font
@@ -5460,6 +5703,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 64.77 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "89ff685d-b665-400d-ba29-7a9cef9b31fb")
 		)
@@ -5520,6 +5772,24 @@
 			)
 		)
 		(property "Description" "Hex Schmitt trigger inverter"
+			(at 251.46 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "C38184"
+			(at 251.46 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 251.46 81.28 0)
 			(effects
 				(font
@@ -5634,6 +5904,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 72.39 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "aead78ca-0adc-4387-99c2-6d3951339b60")
 		)
@@ -5696,6 +5975,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 120.65 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 120.65 120.65 0)
 			(effects
 				(font
@@ -5774,6 +6062,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 53.34 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fbb544a6-b322-4472-9712-003f2a3783fd")
 		)
@@ -5843,6 +6140,15 @@
 			)
 		)
 		(property "JLC" "C7950"
+			(at 81.28 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 81.28 166.37 0)
 			(effects
 				(font
@@ -5939,6 +6245,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 41.91 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1df0a870-5952-4823-af40-24a2e9608a3b")
 		)
@@ -6009,6 +6324,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 104.14 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "36582ddc-9c2c-4b43-b03e-35e0b81efe9f")
 		)
@@ -6031,7 +6355,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "daa0e1ff-b041-4134-ba81-65dcca82bd52")
 		(property "Reference" "J2"
@@ -6077,6 +6401,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 31.75 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "815d4a26-37ab-49be-8576-a01b3ee89cd6")
 		)
@@ -6099,7 +6432,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e02ad01b-5e61-4dbe-aa63-1479c42ac8c7")
 		(property "Reference" "D2"
@@ -6155,6 +6488,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 48.26 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 48.26 39.37 0)
 			(effects
 				(font
@@ -6240,6 +6582,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 207.01 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "a564427c-3dfe-4bec-954d-0334f79fa39f")
 		)
@@ -6280,7 +6631,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e60df8e3-07a6-4418-9755-15dc70fd96e8")
 		(property "Reference" "J5"
@@ -6328,6 +6679,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 33.02 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "79476d91-8956-4917-8b22-542aa5358ec3")
 		)
@@ -6356,7 +6716,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e957d744-d043-4a6a-b0b8-f12ac4f2428f")
 		(property "Reference" "C45"
@@ -6396,6 +6756,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 50.8 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 50.8 99.06 0)
 			(effects
 				(font
@@ -6464,6 +6833,24 @@
 			)
 		)
 		(property "Description" "Hex Schmitt trigger inverter"
+			(at 251.46 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "C38184"
+			(at 251.46 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 251.46 53.34 0)
 			(effects
 				(font

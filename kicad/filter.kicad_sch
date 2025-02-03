@@ -2807,6 +2807,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 151.13 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5fe64eeb-6395-4d79-9940-00dd8e40b665")
 		)
@@ -2867,6 +2876,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 73.66 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 73.66 60.96 0)
 			(effects
 				(font
@@ -2943,6 +2961,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 60.96 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "92907cd3-d08c-4803-b283-068aa57a1e46")
 		)
@@ -2965,7 +2992,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "1fc4178e-9497-4b47-a27e-95e2602f762a")
 		(property "Reference" "RV11"
@@ -3011,6 +3038,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 115.57 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "0cf724c0-d6ab-4c44-b6d7-8fb2e6e9205f")
 		)
@@ -3045,7 +3081,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "238782b2-ac66-4cf7-aad9-3bf51f98e41f")
 		(property "Reference" "J4"
@@ -3085,6 +3121,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 57.15 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 57.15 31.75 0)
 			(effects
 				(font
@@ -3170,6 +3215,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 129.54 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "65bbef2b-7038-40d1-b991-9af9f307a915")
 		)
@@ -3229,6 +3283,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 129.54 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 129.54 59.69 0)
 			(effects
 				(font
@@ -3305,6 +3368,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 59.69 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "eb492650-dbe4-41b1-aa08-4ce957ec7f12")
 		)
@@ -3373,6 +3445,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 59.69 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dcda78dd-68e1-4cdb-929c-0024c2f0a462")
 		)
@@ -3396,7 +3477,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "3b285a9b-5366-41f7-8bc3-cad12f47c513")
 		(property "Reference" "RV15"
 			(at 71.12 189.23 90)
@@ -3433,6 +3514,15 @@
 			)
 		)
 		(property "Description" "Potentiometer"
+			(at 71.12 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 71.12 185.42 0)
 			(effects
 				(font
@@ -3506,6 +3596,24 @@
 			)
 		)
 		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
+			(at 191.77 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "C7426"
+			(at 191.77 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 191.77 127 0)
 			(effects
 				(font
@@ -3600,6 +3708,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 106.68 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "64facc7d-88ef-40ff-8c5e-05fa57031550")
 		)
@@ -3668,6 +3785,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 149.86 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a89d7c89-ae01-4ff1-9267-b78125602904")
 		)
@@ -3728,6 +3854,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 106.68 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 106.68 154.94 0)
 			(effects
 				(font
@@ -3870,6 +4005,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 59.69 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4dabc82e-9bd2-4851-8ed7-3ea78d3ad1ea")
 		)
@@ -3893,7 +4037,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "6224437c-489e-4696-9e64-9767664a5c4f")
 		(property "Reference" "RV14"
 			(at 71.12 162.56 90)
@@ -3938,6 +4082,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 71.12 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "5f75dc0d-52bb-4b76-ae9a-d63a3a25e08a")
 		)
@@ -3963,7 +4116,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "623173dd-e9ca-4ad9-a4a7-2e7a5b6c9d49")
 		(property "Reference" "RV39"
@@ -4001,6 +4154,15 @@
 			)
 		)
 		(property "Description" "Potentiometer"
+			(at 135.89 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 135.89 88.9 0)
 			(effects
 				(font
@@ -4072,6 +4234,24 @@
 			)
 		)
 		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
+			(at 132.08 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "C7426"
+			(at 132.08 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 132.08 152.4 0)
 			(effects
 				(font
@@ -4158,6 +4338,24 @@
 			)
 		)
 		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
+			(at 273.05 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "C7426"
+			(at 273.05 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 273.05 52.07 0)
 			(effects
 				(font
@@ -4318,6 +4516,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" "C7426"
+			(at 92.71 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 92.71 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "233b2ed7-8b4d-4315-8e04-7af55a20aa9c")
 		)
@@ -4404,6 +4620,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 93.98 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "de208189-849e-4f77-971d-ed4c9f101b89")
 		)
@@ -4426,7 +4651,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "767ddc62-670b-4e12-88c6-f76fb4ee115d")
 		(property "Reference" "RV11"
@@ -4464,6 +4689,15 @@
 			)
 		)
 		(property "Description" "Dual potentiometer, separate units"
+			(at 181.61 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 181.61 57.15 0)
 			(effects
 				(font
@@ -4554,6 +4788,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 266.7 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b5959b95-9f92-49ba-b825-de81d81774dc")
 		)
@@ -4614,6 +4857,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 132.08 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 132.08 163.83 0)
 			(effects
 				(font
@@ -4690,6 +4942,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 106.68 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bf24bbc0-38bd-4d4a-9966-d1ceb01a3144")
 		)
@@ -4758,6 +5019,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 217.17 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "10477827-b8f7-49b4-96f8-c15e02f139e3")
 		)
@@ -4818,6 +5088,24 @@
 			)
 		)
 		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
+			(at 43.18 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "C7426"
+			(at 43.18 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 43.18 185.42 0)
 			(effects
 				(font
@@ -4912,6 +5200,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" "C7426"
+			(at 151.13 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 151.13 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "233b2ed7-8b4d-4315-8e04-7af55a20aa9e")
 		)
@@ -4953,7 +5259,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "a3954ac9-5013-493b-9490-2818da33f819")
 		(property "Reference" "RV13"
 			(at 71.12 134.62 90)
@@ -4990,6 +5296,15 @@
 			)
 		)
 		(property "Description" "Potentiometer"
+			(at 71.12 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 71.12 130.81 0)
 			(effects
 				(font
@@ -5072,6 +5387,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 210.82 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5a88621d-cbac-4c6d-a5a0-abb1eafd3023")
 		)
@@ -5094,7 +5418,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b9e0c25d-7a6f-47a6-82b4-1fbfd310b61e")
 		(property "Reference" "RV10"
@@ -5132,6 +5456,15 @@
 			)
 		)
 		(property "Description" "Potentiometer"
+			(at 115.57 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 115.57 40.64 0)
 			(effects
 				(font
@@ -5214,6 +5547,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 237.49 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "43c85253-760b-4830-a7b9-b64ff248b8e4")
 		)
@@ -5274,6 +5616,24 @@
 			)
 		)
 		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
+			(at 43.18 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "C7426"
+			(at 43.18 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 43.18 158.75 0)
 			(effects
 				(font
@@ -5368,6 +5728,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" "C7426"
+			(at 43.18 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 43.18 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6d71737c-24bc-4334-82cf-51d1c5829d38")
 		)
@@ -5446,6 +5824,24 @@
 			)
 		)
 		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
+			(at 217.17 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "C7426"
+			(at 217.17 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 217.17 50.8 0)
 			(effects
 				(font
@@ -5543,6 +5939,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 184.15 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8ba396f6-6402-450f-9498-1d2b9aa1210b")
 		)
@@ -5604,6 +6009,24 @@
 			)
 		)
 		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
+			(at 218.44 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "C7426"
+			(at 218.44 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 218.44 127 0)
 			(effects
 				(font
@@ -5699,6 +6122,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" "C7426"
+			(at 274.32 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 274.32 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "947f6911-7cd6-4983-b3fa-20251ff59326")
 		)
@@ -5784,6 +6225,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 191.77 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9eddf9ef-dcfb-4db6-842c-30a5ca51ec06")
 		)
@@ -5845,6 +6295,24 @@
 			)
 		)
 		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
+			(at 245.11 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "C7426"
+			(at 245.11 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 245.11 127 0)
 			(effects
 				(font

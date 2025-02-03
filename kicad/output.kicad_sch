@@ -857,7 +857,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "831c6934-c1c3-474a-98b2-3056f5c45e6b")
 		(property "Reference" "J10"
@@ -897,6 +897,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 74.93 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 74.93 57.15 0)
 			(effects
 				(font
@@ -976,6 +985,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 105.41 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "20ab10e8-e7bb-40e7-ae9a-3731ae25729d")
 		)
@@ -999,7 +1017,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "a6f983f6-771e-464f-8dec-db81577a8f3c")
 		(property "Reference" "RV17"
 			(at 119.38 101.6 90)
@@ -1044,6 +1062,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 119.38 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e4d6207a-420a-4787-a306-1b4bef1a3d0f")
 		)
@@ -1070,7 +1097,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "dd5b9343-f54c-40b6-a0a3-b78178a24244")
 		(property "Reference" "RV16"
 			(at 119.38 82.55 90)
@@ -1107,6 +1134,15 @@
 			)
 		)
 		(property "Description" "Potentiometer"
+			(at 119.38 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 119.38 78.74 0)
 			(effects
 				(font
@@ -1186,6 +1222,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 105.41 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "620b8a38-7632-402a-97f3-e954ff8582b5")
 		)
@@ -1208,7 +1253,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "fd0934a7-6b9e-4a8f-bf0e-577639bcedc7")
 		(property "Reference" "J3"
@@ -1248,6 +1293,15 @@
 			)
 		)
 		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+			(at 158.75 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 158.75 86.36 0)
 			(effects
 				(font

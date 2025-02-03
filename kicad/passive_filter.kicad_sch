@@ -683,6 +683,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 77.47 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "535e6482-f9fb-41de-9bc3-98ea8d32e069")
 		)
@@ -705,7 +714,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "332dd763-3173-4286-8819-1c5141db9c98")
 		(property "Reference" "RV40"
@@ -751,6 +760,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 95.25 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "73e3c5c9-791a-47f6-b536-e4b122b39625")
 		)
@@ -776,7 +794,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a52545ed-5217-4114-bd97-7093b9afc134")
 		(property "Reference" "J11"
@@ -816,6 +834,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 45.72 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 45.72 38.1 0)
 			(effects
 				(font
