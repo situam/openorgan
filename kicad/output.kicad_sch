@@ -993,13 +993,13 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer")
-		(at 119.38 97.79 90)
+		(at 119.38 97.79 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a6f983f6-771e-464f-8dec-db81577a8f3c")
 		(property "Reference" "RV17"
 			(at 119.38 101.6 90)
@@ -1009,7 +1009,7 @@
 				)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "A100K"
 			(at 119.38 104.14 90)
 			(effects
 				(font
@@ -1064,13 +1064,13 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer")
-		(at 119.38 78.74 90)
+		(at 119.38 78.74 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "dd5b9343-f54c-40b6-a0a3-b78178a24244")
 		(property "Reference" "RV16"
 			(at 119.38 82.55 90)
@@ -1080,7 +1080,7 @@
 				)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "A100K"
 			(at 119.38 85.09 90)
 			(effects
 				(font
