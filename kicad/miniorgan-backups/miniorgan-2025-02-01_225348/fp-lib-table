@@ -1,5 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "TouchPad_Surface")(type "KiCad")(uri "${KIPRJMOD}/TouchPad_Surface.pretty")(options "")(descr ""))
-  (lib (name "Pot_RD902F")(type "KiCad")(uri "${KIPRJMOD}/Pot_RD902F.pretty")(options "")(descr ""))
-)

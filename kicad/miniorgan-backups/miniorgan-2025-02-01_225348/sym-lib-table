@@ -1,5 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "New_Library")(type "KiCad")(uri "${KIPRJMOD}/Pot_RD902F.pretty/New_Library.kicad_sym")(options "")(descr ""))
-  (lib (name "POT_RD902F-40-15F-A50K-00D45A")(type "KiCad")(uri "${KIPRJMOD}/Pot_RD902F.pretty/POT_RD902F-40-15F-A50K-00D45A.kicad_sym")(options "")(descr ""))
-)
