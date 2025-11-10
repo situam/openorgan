@@ -258,7 +258,7 @@
       ],
       [
         0,
-        2,
+        1,
         0,
         1,
         0,
@@ -437,7 +437,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -613,7 +613,7 @@
       "group_symbols": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "${DNP}"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -668,12 +668,8 @@
       "Root"
     ],
     [
-      "a11f1600-9634-4b30-9355-a88451a0be01",
-      "Touch_Keys"
-    ],
-    [
       "bafee513-d4ed-4e71-adce-29b916149a53",
-      "Filter"
+      "filter"
     ],
     [
       "1a9b0ea8-75bd-43cd-842c-7d1cafcffe09",
@@ -681,19 +677,27 @@
     ],
     [
       "287c9f86-aadf-4a74-b5ee-855b57f117fa",
-      "vactrol compressor"
+      "compressor"
     ],
     [
-      "d358d6a5-6ff1-41e2-aedd-34eba048761c",
-      "Touch_Keys1"
+      "3e55a7c1-1802-4088-bf04-ef16f1f9726f",
+      "output"
+    ],
+    [
+      "8ad10802-6640-4831-88de-c4f8d53ae10b",
+      "passive filter"
     ],
     [
       "2df79c90-cce7-40c2-9712-163bd8ccb640",
       "keys"
     ],
     [
-      "3e55a7c1-1802-4088-bf04-ef16f1f9726f",
-      "output"
+      "a11f1600-9634-4b30-9355-a88451a0be01",
+      "Touch_Keys"
+    ],
+    [
+      "d358d6a5-6ff1-41e2-aedd-34eba048761c",
+      "Touch_Keys1"
     ],
     [
       "63616a21-b1ce-45b6-91c6-56c886bf421d",
@@ -702,10 +706,6 @@
     [
       "b57f1e13-7d9f-4407-b996-080ac1679a68",
       "Touch_Keys3"
-    ],
-    [
-      "8ad10802-6640-4831-88de-c4f8d53ae10b",
-      "passive filter"
     ]
   ],
   "text_variables": {}

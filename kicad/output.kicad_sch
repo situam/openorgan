@@ -752,16 +752,6 @@
 		)
 		(uuid "d6c7db65-949d-401c-8721-f2045049f10a")
 	)
-	(text "tbd: log potis?\n"
-		(exclude_from_sim no)
-		(at 129.032 115.062 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "52827324-99eb-43e8-be48-590df89ef6b7")
-	)
 	(hierarchical_label "GND"
 		(shape input)
 		(at 123.19 78.74 0)
