@@ -1,0 +1,1123 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "ecabb418-287b-48e9-ad6b-022b47876e25")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x03"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x03_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 109.22 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "284656b3-6291-4906-8533-8e60b9995f3a")
+	)
+	(junction
+		(at 116.84 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "389e98bb-44d2-479f-b9be-f134a5f0e21e")
+	)
+	(junction
+		(at 39.37 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b78fc13-e269-47c8-86a0-71efd0f8d4e3")
+	)
+	(junction
+		(at 154.94 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a9dd950-8a56-4313-a79d-3d251b4f0e6f")
+	)
+	(junction
+		(at 154.94 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2b595d7-a58a-462b-83ad-cb1224a972c3")
+	)
+	(junction
+		(at 39.37 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cdcfbb59-e221-40a7-b38d-9e86889aea23")
+	)
+	(junction
+		(at 109.22 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf328462-d371-4153-ae4b-19edd23c94d4")
+	)
+	(junction
+		(at 116.84 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3423729-ec61-4086-ab05-56f5bfe841cc")
+	)
+	(wire
+		(pts
+			(xy 109.22 53.34) (xy 109.22 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01715b25-80a6-4853-ba83-564d3c1e979c")
+	)
+	(wire
+		(pts
+			(xy 154.94 62.23) (xy 154.94 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "051fa20a-f04c-4a8c-b129-eec0f2bbc8f4")
+	)
+	(wire
+		(pts
+			(xy 154.94 80.01) (xy 154.94 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11fcac2e-651a-4b69-952e-31ad1133eee7")
+	)
+	(wire
+		(pts
+			(xy 109.22 88.9) (xy 123.19 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d521575-6338-4c45-b20d-ebd9274eff44")
+	)
+	(wire
+		(pts
+			(xy 116.84 73.66) (xy 116.84 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "247f6d6c-ff1d-4194-99dc-603558091fda")
+	)
+	(wire
+		(pts
+			(xy 116.84 91.44) (xy 123.19 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2918eb87-3488-4ab4-b793-d42a38b30fa4")
+	)
+	(wire
+		(pts
+			(xy 35.56 55.88) (xy 39.37 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2da1944f-4360-4aa6-a41e-ec438358e0da")
+	)
+	(wire
+		(pts
+			(xy 142.24 97.79) (xy 154.94 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "361bb872-0578-455d-8c31-2f765a6e5aca")
+	)
+	(wire
+		(pts
+			(xy 39.37 53.34) (xy 54.61 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3be65883-bbd2-4970-a131-baa9032d2255")
+	)
+	(wire
+		(pts
+			(xy 116.84 55.88) (xy 116.84 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47aa8879-420d-4256-91cc-92c5a7626fae")
+	)
+	(wire
+		(pts
+			(xy 109.22 88.9) (xy 109.22 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bfb662f-e243-4a37-a2ba-79900246fc15")
+	)
+	(wire
+		(pts
+			(xy 116.84 55.88) (xy 123.19 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f4b36fa-fbfc-48db-bfb7-3afeafe07fd0")
+	)
+	(wire
+		(pts
+			(xy 154.94 116.84) (xy 142.24 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "707c3dc5-9b32-488d-a994-3b7b925baea3")
+	)
+	(wire
+		(pts
+			(xy 109.22 71.12) (xy 109.22 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "755c54af-9f64-47e8-9ff5-68f9984f5a94")
+	)
+	(wire
+		(pts
+			(xy 154.94 97.79) (xy 154.94 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78fb2bcd-24ed-43f9-9f13-28aba176ad7b")
+	)
+	(wire
+		(pts
+			(xy 116.84 73.66) (xy 123.19 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82a3b40d-fce1-4763-81af-967051355a85")
+	)
+	(wire
+		(pts
+			(xy 109.22 107.95) (xy 123.19 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "833d0c90-6263-4c74-98ab-aed8a9c29bc3")
+	)
+	(wire
+		(pts
+			(xy 142.24 62.23) (xy 154.94 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d3729b1-3dae-4186-8e04-ac220a59be20")
+	)
+	(wire
+		(pts
+			(xy 142.24 80.01) (xy 154.94 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afeb3f41-5e4a-4983-bec8-87442e1777f0")
+	)
+	(wire
+		(pts
+			(xy 109.22 71.12) (xy 123.19 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6abcedf-3eba-4e7f-8d0d-a7a84dc4eb67")
+	)
+	(wire
+		(pts
+			(xy 116.84 91.44) (xy 116.84 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7cdf6d4-f510-480d-9b55-ee3cbcc85fa4")
+	)
+	(wire
+		(pts
+			(xy 109.22 53.34) (xy 123.19 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd06a4a1-65ed-41ea-8c68-d5d3ed58689d")
+	)
+	(wire
+		(pts
+			(xy 35.56 53.34) (xy 39.37 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c52bb2b0-053c-421e-a9f7-5b38eecb0dd4")
+	)
+	(wire
+		(pts
+			(xy 116.84 110.49) (xy 123.19 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2e5f305-2ef7-46e1-8a67-ebfbce35e233")
+	)
+	(wire
+		(pts
+			(xy 39.37 55.88) (xy 54.61 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e62762d0-6436-47e5-9fe8-19cc4246079e")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 35.56 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "432a2575-8e71-4eea-8b3e-1fc837ac79b8")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 116.84 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "820fa6f4-3d94-4d73-a438-e4e90a7d4f33")
+	)
+	(hierarchical_label "MIX_OUT"
+		(shape output)
+		(at 54.61 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8f0a284a-656c-4378-a860-8d13dcde8798")
+	)
+	(hierarchical_label "MIX_OUT"
+		(shape output)
+		(at 154.94 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b79c1a5d-a8f2-4674-8481-65ed8c09bebe")
+	)
+	(hierarchical_label "CV_IN"
+		(shape input)
+		(at 109.22 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d66c4ac4-a2c6-4766-9386-eb493ba075d4")
+	)
+	(hierarchical_label "CV_IN"
+		(shape input)
+		(at 35.56 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ef3eec6d-ef10-4789-af3d-1bcfb5245b1c")
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 39.37 55.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2dbc81f-b76b-4e57-88e3-7d62158a2434")
+		(property "Reference" "#FLG016"
+			(at 39.37 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 39.37 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 39.37 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a6f1309-f11c-408f-8a47-0441c3c40fce")
+		)
+		(instances
+			(project "miniorgan"
+				(path "/97808a2d-57c4-45d7-b323-e7cfe4ef4513/2df79c90-cce7-40c2-9712-163bd8ccb640"
+					(reference "#FLG016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 39.37 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae665d50-7065-4ff4-b1a7-d4629b91b38d")
+		(property "Reference" "#FLG015"
+			(at 39.37 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 39.37 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 39.37 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d29e88b-dc0f-433e-b9b3-98f1ae05f207")
+		)
+		(instances
+			(project "miniorgan"
+				(path "/97808a2d-57c4-45d7-b323-e7cfe4ef4513/2df79c90-cce7-40c2-9712-163bd8ccb640"
+					(reference "#FLG015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 59.69 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "fce7e177-c6c2-4836-8621-271de45f442a")
+		(property "Reference" "J1"
+			(at 62.23 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 62.23 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 59.69 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 59.69 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 59.69 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b49eb4c6-a034-41da-9a06-9db69c6a5db9")
+		)
+		(pin "1"
+			(uuid "9738aa37-6faf-4a78-8b3b-9f1aea66b7a1")
+		)
+		(pin "3"
+			(uuid "0186b981-5617-4c1d-85e7-414af020bc70")
+		)
+		(instances
+			(project "miniorgan"
+				(path "/97808a2d-57c4-45d7-b323-e7cfe4ef4513/2df79c90-cce7-40c2-9712-163bd8ccb640"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 123.19 87.63)
+		(size 19.05 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "63616a21-b1ce-45b6-91c6-56c886bf421d")
+		(property "Sheetname" "Touch_Keys2"
+			(at 123.19 86.9184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "oscillators.kicad_sch"
+			(at 123.19 99.6446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MIX_OUT" output
+			(at 142.24 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c298d8ef-2041-4409-8911-41fd928e1909")
+		)
+		(pin "CV_IN" input
+			(at 123.19 88.9 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "37bca2be-4210-4191-9a9f-020cc9121d73")
+		)
+		(pin "GND" input
+			(at 123.19 91.44 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3fe5cda0-07da-490e-88fd-3543b530b828")
+		)
+		(instances
+			(project "miniorgan"
+				(path "/97808a2d-57c4-45d7-b323-e7cfe4ef4513/2df79c90-cce7-40c2-9712-163bd8ccb640"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 123.19 52.07)
+		(size 19.05 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a11f1600-9634-4b30-9355-a88451a0be01")
+		(property "Sheetname" "Touch_Keys"
+			(at 123.19 51.3584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "oscillators.kicad_sch"
+			(at 123.19 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MIX_OUT" output
+			(at 142.24 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9b592df6-450e-4809-a193-352dd9c7988a")
+		)
+		(pin "CV_IN" input
+			(at 123.19 53.34 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "98fc83aa-49d5-46de-8d15-0fde0a890ef2")
+		)
+		(pin "GND" input
+			(at 123.19 55.88 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3a4b5acf-ffb8-477d-bffa-ef8e91b7772d")
+		)
+		(instances
+			(project "miniorgan"
+				(path "/97808a2d-57c4-45d7-b323-e7cfe4ef4513/2df79c90-cce7-40c2-9712-163bd8ccb640"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 123.19 106.68)
+		(size 19.05 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b57f1e13-7d9f-4407-b996-080ac1679a68")
+		(property "Sheetname" "Touch_Keys3"
+			(at 123.19 105.9684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "oscillators.kicad_sch"
+			(at 123.19 118.6946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MIX_OUT" output
+			(at 142.24 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d881a60d-ae6b-43c1-9198-1104e71cd4a9")
+		)
+		(pin "CV_IN" input
+			(at 123.19 107.95 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1f1452f1-0e46-46e9-8e5a-41f7aec53a37")
+		)
+		(pin "GND" input
+			(at 123.19 110.49 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1241e14d-ebba-4aa0-91f5-135618b91cdf")
+		)
+		(instances
+			(project "miniorgan"
+				(path "/97808a2d-57c4-45d7-b323-e7cfe4ef4513/2df79c90-cce7-40c2-9712-163bd8ccb640"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 123.19 69.85)
+		(size 19.05 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d358d6a5-6ff1-41e2-aedd-34eba048761c")
+		(property "Sheetname" "Touch_Keys1"
+			(at 123.19 69.1384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "oscillators.kicad_sch"
+			(at 123.19 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MIX_OUT" output
+			(at 142.24 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "43f16a48-388d-40c7-82c8-0c374a90b1d7")
+		)
+		(pin "CV_IN" input
+			(at 123.19 71.12 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "07924cc9-4c13-4bbe-93c3-716792adf34e")
+		)
+		(pin "GND" input
+			(at 123.19 73.66 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ac9fbb2c-7751-4d30-a888-96c9be888def")
+		)
+		(instances
+			(project "miniorgan"
+				(path "/97808a2d-57c4-45d7-b323-e7cfe4ef4513/2df79c90-cce7-40c2-9712-163bd8ccb640"
+					(page "6")
+				)
+			)
+		)
+	)
+)
